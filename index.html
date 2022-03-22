@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <title>TJTEK SOFTWARE COMPANY</title>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class=" py-5 text-center">
+            <h1 class="d-block mx-auto">TJTEK SOFTWARE COMPANY <span style="font-size: 14px;">RC 3527245</span></h1>
+            <div>
+                <h3 class="lead">EMPLOYMENT FORM <span style="font-size: 14px;">TIN 24953612</span></h4>
+                    <h6 class="lead">Note: All entries must be filled in by the candidate in capital letters</h6>
+            </div>
+        </div>
+        <div class="container">
+            <h4>PERSONAL INFORMATION</h4>
+            <form action="mailto:adetolaseun18@gmail.com" method="POST" enctype="text/plain">
+                <div class="row mb">
+                    <div class="col-sm-6 mb-2">
+                        <label for="firstname" class="form-label">Firstname</label>
+                        <input type="text" class="form-control" name="firstname" id="firstname" placeholder="first name"
+                            required>
+                        <div class="invalid-feedback">Valid firstname is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="lastname" class="form-label">Lastname</label>
+                        <input type="text" class="form-control" name="lastname" id="lastname" placeholder="last name"
+                            required>
+                        <div class="invalid-feedback">Valid lastname is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="othernames" class="form-label">Othernames</label>
+                        <input type="text" class="form-control" name="othernames" id="othernames"
+                            placeholder="Other names" required>
+                        <div class="invalid-feedback">Valid names is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" class="form-control" name="title" id="title" placeholder="Mr/Mrs/Miss"
+                            required>
+                        <div class="invalid-feedback">Valid title is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="me@example.com"
+                            required>
+                        <div class="invalid-feedback">Valid email is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="username" class="form-label">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="marital status" class="form-label">Marital status</label>
+                        <select class="form-control" id="marital--status">
+                            <option value="">Choose.....</option>
+                            <option value="single">Single</option>
+                            <option value="married">Married</option>
+                            <option value="divorced">Divorced</option>
+                        </select>
+                        <div class="invalid-feedback">Valid names is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select class="form-control" id="gender">
+                            <option value="">Choose.....</option>
+                            <option value="single">Male</option>
+                            <option value="married">Female</option>
+                            <option value="divorced">Not Say</option>
+                        </select>
+                        <div class="invalid-feedback">Valid names is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="zipcode" class="form-label">Zip Code</label>
+                        <input type="number" class="form-control" name="zipcode" id="zipcode" placeholder="999999999"
+                            min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid zipcode is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="spousename" class="form-label">Spouse Name</label>
+                        <input type="number" class="form-control" name="spousename" id="spousename"
+                            placeholder="spouse name" required>
+                        <div class="invalid-feedback">Valid spousename is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="educationlevel" class="form-label">Education Level</label>
+                        <select class="form-control" id="marital--status">
+                            <option value="">Choose.....</option>
+                            <option value="single">BSc</option>
+                            <option value="married">MSc</option>
+                            <option value="divorced">PhD</option>
+                        </select>
+                        <div class="invalid-feedback">Valid names is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" name="city" id="city" placeholder="city" min="0"
+                            max="999999999" required>
+                        <div class="invalid-feedback">Valid city is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" class="form-control" name="state" id="state" placeholder="state" min="0"
+                            max="999999999" required>
+                        <div class="invalid-feedback">Valid state is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" name="address" id="address" placeholder="address"
+                            min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid address is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="phonenumber" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" name="phonenumber" id="phonenumber"
+                            placeholder="+234 - 999999999" min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid phonenumber is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="lga" class="form-label">LGA</label>
+                        <input type="text" class="form-control" name="lga" id="lga" placeholder="lga" min="0"
+                            max="999999999" required>
+                        <div class="invalid-feedback">Valid lga is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="taxidentificationnumber" class="form-label">Tax Identification Number</label>
+                        <input type="number" class="form-control" name="taxidentificationnumber"
+                            id="taxidentificationnumber" placeholder="+234 - 999999999" min="0" max="999999999"
+                            required>
+                        <div class="invalid-feedback">Valid taxidentificationnumber is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Birth</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="nationality" class="form-label">Nationality</label>
+                        <input type="text" class="form-control" name="nationality" id="nationality"
+                            placeholder="nationality" min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid nationality is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="uploadpassport" class="form-label">Upload Passport</label>
+                        <input type="file" class="form-control" name="uploadpassport" id="uploadpassport"
+                            placeholder="uploadpassport" min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid passport is required</div>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <h4>EMPLOYMENT DETAILS</h4>
+                <p>NOTE :</p>
+                <ol>
+                    <li> : Candidate must provide a letter of resignation from previous employer</li>
+                    <li> : Candidate must provide a recommendation letter from the previos employer</li>
+                </ol>
+                <p>Previous employer if applicable 1 (if applicable)</p>
+                <div class="row mb">
+                    <div class="col-sm-6 mb-2">
+                        <label for="employername" class="form-label">Employer Name</label>
+                        <input type="text" class="form-control" name="employername" id="employername"
+                            placeholder="Employer name" required>
+                        <div class="invalid-feedback">Valid employer name is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="postheld" class="form-label">Post Held</label>
+                        <input type="text" class="form-control" name="postheld" id="postheld" placeholder="Post held"
+                            required>
+                        <div class="invalid-feedback">Valid postheld is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Employment</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Resignation</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" name="address" id="address" placeholder="address"
+                            min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid address is required</div>
+                    </div>
+                </div>
+                <br>
+                <p>Previous employer if applicable 2 (if applicable)</p>
+                <div class="row mb">
+                    <div class="col-sm-6 mb-2">
+                        <label for="employername" class="form-label">Employer Name</label>
+                        <input type="text" class="form-control" name="employername" id="employername"
+                            placeholder="Employer name" required>
+                        <div class="invalid-feedback">Valid employer name is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="postheld" class="form-label">Post Held</label>
+                        <input type="text" class="form-control" name="postheld" id="postheld" placeholder="Post held"
+                            required>
+                        <div class="invalid-feedback">Valid postheld is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Employment</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Resignation</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" name="address" id="address" placeholder="address"
+                            min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid address is required</div>
+                    </div>
+                </div>
+                <br>
+                <p>Previous employer if applicable 3 (if applicable)</p>
+                <div class="row mb">
+                    <div class="col-sm-6 mb-2">
+                        <label for="employername" class="form-label">Employer Name</label>
+                        <input type="text" class="form-control" name="employername" id="employername"
+                            placeholder="Employer name" required>
+                        <div class="invalid-feedback">Valid employer name is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="postheld" class="form-label">Post Held</label>
+                        <input type="text" class="form-control" name="postheld" id="postheld" placeholder="Post held"
+                            required>
+                        <div class="invalid-feedback">Valid postheld is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Employment</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Resignation</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" name="address" id="address" placeholder="address"
+                            min="0" max="999999999" required>
+                        <div class="invalid-feedback">Valid address is required</div>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <h4>ADDITIONAL INFORMATION</h4>
+                Are you liable to work as an entity or company rgistered under CAC ? <input type="radio"
+                    name=" Are you liable to work as an entity or company rgistered under CAC ?" value="Yes"> Yes <input
+                    type="radio" name=" Are you liable to work as an entity or company rgistered under CAC ?"
+                    value="No"> No
+                <br>
+                Have you ever been convicted of a felony before ? <input type="radio" name="crime" value="Yes"> Yes
+                <input type="radio" name="crime" value="No"> No
+                <br>
+                Have you been employed by this organisation in the past ? <input type="radio"
+                    name=" Have you been employed by this organisation in the past ? " value="Yes"> Yes <input
+                    type="radio" name=" Have you been employed by this organisation in the past ? " value="No"> No
+                <br> <br>
+                <h4>POSTION DETAILS</h4>
+                <p>Candidate must provide a letter of resignation from previous employer </p>
+                <div class="row">
+                    <div class="col-sm-6 mb-2">
+                        <label for="position" class="form-label">Position you are applying for</label>
+                        <input type="text" class="form-control" name="position" id="position" placeholder="last name"
+                            required>
+                        <div class="invalid-feedback">Valid position is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="date" class="form-label">Date Of Resumption</label>
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" required>
+                        <div class="invalid-feedback">Valid date is required</div>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <label for="pay" class="form-label">Desired pay</label>
+                        <input type="text" class="form-control" name="pay" id="pay" placeholder="Naira" required>
+                        <div class="invalid-feedback">Valid pay is required</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="employmenttype" class="form-label">Employment Type</label>
+                        <select class="form-control" id="marital--status">
+                            <option value="">Choose.....</option>
+                            <option value="single">Full time</option>
+                            <option value="married">Part time</option>
+                            <option value="divorced">Contract</option>
+                            <option value="divorced">Freelance</option>
+                        </select>
+                        <div class="invalid-feedback">Valid names is required</div>
+                    </div>
+                </div> <br>
+                <hr class="my-4">
+
+                <h4>EDUCATION DETAILS</h4>
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">CLASS</th>
+                            <th scope="col">YEAR</th>
+                            <th scope="col">RESULT/DEGREE</th>
+                            <th scope="col">SERIAL/MATRIC NO:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">SECONDARY</th>
+                            <td><input type="text" class="input-group" name="PRIMARY YEAR"> </td>
+                            <th><input type="text" class="input-group" name="PRIMARY RESULT/DEGREE" value=""> </th>
+                            <th><input type="text" class="input-group" name="SERIAL/MATRIC NO" value=""></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">TERTIARY</th>
+                            <td><input type="text" class="input-group" name="PRIMARY YEAR"> </td>
+                            <th><input type="text" class="input-group" name="PRIMARY RESULT/DEGREE" value=""> </th>
+                            <th><input type="text" class="input-group" name="SERIAL/MATRIC NO" value=""></th>
+                        <tr>
+                            <th scope="row">SECONDARY</th>
+                            <td><input type="OTHERS" class="input-group" name="PRIMARY YEAR"> </td>
+                            <th><input type="text" class="input-group" name="PRIMARY RESULT/DEGREE" value=""> </th>
+                            <th><input type="text" class="input-group" name="SERIAL/MATRIC NO" value=""></th>
+                    </tbody>
+                </table>
+
+
+                <h4>CANDIDATE BANKING DETAILS</h4> <span>this is where your salary
+                    will
+                    be
+                    paid into :)</span>
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">BANK</th>
+                            <th scope="col">BANK NAME</th>
+                            <th scope="col">ACCOUNT NUMBER</th>
+                            <th scope="col">SALARY/WAGES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">BANK -1</th>
+                            <td><input type="text" class="input-group" name="PRIMARY YEAR"> </td>
+                            <th><input type="text" class="input-group" name="PRIMARY RESULT/DEGREE" value=""> </th>
+                            <th><input type="text" class="input-group" name="SERIAL/MATRIC NO" value=""></th>
+                        </tr>
+                        <tr>
+                            <th scope="row">BANK -2</th>
+                            <td><input type="text" class="input-group" name="PRIMARY YEAR"> </td>
+                            <th><input type="text" class="input-group" name="PRIMARY RESULT/DEGREE" value=""> </th>
+                            <th><input type="text" class="input-group" name="SERIAL/MATRIC NO" value=""></th>
+                    </tbody>
+                </table>
+                <br>
+                <div class="authorize">
+                    <span>AUTHORITY TO DO JOB SEARCH AND PROCESS ANY EMPLOYMENT OPPORTINITY</span><br><br>
+                    
+                    <p>
+                        I/WE <input type="text" name="NAME OF THE PERSON TAKING THE OATH" value=""
+                            style="padding-left: 30px;">
+                        of
+                        <input type="text" name="ON BEHALF OF PERSON TAKING OATH" value="" style="padding-left: 30px;">
+                        <br>
+                        hereby authorize TJTEK SOFTWARE COMPANY to process job search and employment
+                        <br>
+                        opportunities for me and on my behalf and charge me with applicable charges for the
+                        <br>
+                        conducted for me
+                    </p>
+                    <span>DECLARATION</span>
+                    <p>
+                        I/We <br>
+                        <input type="text" name="NAME OF PERSON TAKING THE OATH" value="">
+                        <br>
+                        hereby apply for a job in your reputable organisation at TJTEK Software company.
+                        <br>
+                        I/we understand thst the infprmation given herein and the documents supplied are thr basis <br>
+                        for applying for a job and that I/We therfore warrant that such informaton is true and correct .
+                        <br>
+                        <br>
+                        Name : <input type="text" name="NAME OF APPLICANT" value=""> Signature :
+                        .............................
+                        <br> <br>
+                        Name : <input type="text" name="NAME OF APPLICANT" value=""> Signature :
+                        .............................
+                    </p>
+                </div>
+                <button type="button" class="btn btn-primary my-4">Submit</button>
+
+
+        </div>
+        </form>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+</body>
+
+</html>
